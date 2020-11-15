@@ -71,11 +71,13 @@
 
   function removeTransition (e) {
     if(e.propertyName !== 'transform') return; //skip if not a transform
+
     this.classList.remove('playing'); // should remove transition outer-no longer selected
   }
+  
   const keys = document.querySelectorAll('.key');
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-  window.addEventListener('keydown',playSound)    
+  window.addEventListener('keydown', playSound)    
   
 </script>
 

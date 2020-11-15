@@ -1,3 +1,10 @@
+body {
+  /* background-image: url("headphones.jpg"); */
+  background-image: url("tape.jpg");
+  /* background-repeat: no-repeat;
+  background-size: auto */
+}
+
 html {
   font-size: 10px;
   background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
@@ -25,7 +32,8 @@ body,html {
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
-  width: 10rem;
+  width: 30rem;
+  height: 15rem;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
@@ -40,11 +48,11 @@ body,html {
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 10rem;
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
